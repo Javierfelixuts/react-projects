@@ -18,3 +18,37 @@ article img {
 .bar {
     margin: 0 auto;
 }
+.profile {
+    position: relative;
+    margin: 0 auto;
+}
+.img-profile {
+    position: relative;
+}
+.img-profile::after {
+    content: '';
+    position: absolute;
+    top: -1px;
+    right: -5px;
+    width: 100px;
+    height: 100px;
+    background: rgb(0, 179, 255);
+    border-radius: 50%;
+    z-index: -1;
+}
+.quote {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
