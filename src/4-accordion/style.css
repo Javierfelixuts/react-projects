@@ -10,6 +10,10 @@
     height: fit-content;
     min-height: 500px;
     background: #fff;
-    padding: 1rem;
+    padding: 4rem;
     border-radius: 1rem;
+}
+
+.info {
+    transition: 1s;
 }
