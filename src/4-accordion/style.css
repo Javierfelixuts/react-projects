@@ -6,9 +6,9 @@
 
 .card {
     width: 100%;
-    max-width: 700px;
+    max-width: 900px;
     height: fit-content;
-    min-height: 400px;
+    min-height: 500px;
     background: #fff;
     padding: 1rem;
     border-radius: 1rem;
