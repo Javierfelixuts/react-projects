@@ -1,0 +1,32 @@
+main {
+    width: 100%;
+    min-height: 100dvh;
+    height: auto;
+    background: #d9e8f4;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+  display: flex;  
+  margin-top: 1rem;
+}
+
+ul li {
+    padding: .5rem  1rem;
+    margin: 0 1rem;
+    color: #d4ab14;
+    font-weight: 700;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: .1s ease-in;
+}
+
+li:hover {
+    border: 1px solid #d4ab14;
+    border-radius: 5px;
+}
