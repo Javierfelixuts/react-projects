@@ -6,3 +6,4 @@ export interface IMenu {
     img: string,
     desc: string,
 }
+
